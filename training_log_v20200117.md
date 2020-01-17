@@ -22,6 +22,10 @@ val_filename = "val8.txt"
 test_filename = "test8.txt"
 执行脚本，python compute-labels-name.py
 输出如下：
+
+<details>
+<summary>CLICK ME</summary>
+
 train8 :
 all picture is  3100 (图片数量)
 label0 = 981 (bbx 数量)
@@ -76,6 +80,7 @@ label12 = 378
 label13 = 396
 label14 = 0
 
+</details>
 ```
 ### 训练数据
 - training data: train/dove14_fifth_before_after-img100 + train/dove14-fifth-train-data-img100 + train/dove14-fifth-train-data-img200 + train/label3_4_8_12_13_train_img500
@@ -149,6 +154,9 @@ policy=steps
 steps=16000,22000
 scales=.1,.1
 # max_epochs = 300
+
+<details>
+<summary>CLICK ME</summary>
 
 [convolutional]
 batch_normalize=1
@@ -935,6 +943,8 @@ iou_normalizer=0.5
 iou_loss=giou
 scale_x_y=1.0
 random=1
+
+</details>
 ```
 
 ### 训练命令
