@@ -5,7 +5,7 @@
 |-val
 |-test
 ```
-## 数据的改动(8th training)
+## 1. 数据的改动(8th training)
 
 ### 统计样本分布的脚本：compute-labels-name.py
 - 使用方法
@@ -92,7 +92,7 @@ label14 = 0
 - 测试数据bbx分布图
 - ![test data distribution](images/test.png) 
 
-## 训练过程
+## 2. 训练过程
 ### 训练前准备.data, .cfg, .names, .weights
 
 - cholo.data 
@@ -943,7 +943,7 @@ random=1
 ./darknet detector train data/cholo/14dove/eighth_train/cholo.data data/cholo/14dove/eighth_train/yolov3-gaussian-cholo.cfg data/cholo/14dove/eighth_train/yolov3-gaussian-cholo_15000.weights -map
 ```
 
-## 训练结果
+## 3. 训练结果
 
-## 总结
+## 4. 总结
 
