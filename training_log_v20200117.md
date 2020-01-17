@@ -80,6 +80,7 @@ label14 = 0
 ### 训练数据
 - training data: train/dove14_fifth_before_after-img100 + train/dove14-fifth-train-data-img100 + train/dove14-fifth-train-data-img200 + train/label3_4_8_12_13_train_img500
 - 训练数据bbx分布图
+- ![training data distribution](./images/train.png) 
 
 ### 验证数据
 - val data: val/dove14_fifth_before_after_img200 + val/dove14_fifth_before_after_img500 + val/label3_4_8_12_13_val_img500
