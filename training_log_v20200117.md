@@ -954,6 +954,13 @@ random=1
 ```
 
 ## 3. 训练结果
+- 执行命令计算map
+```
+./darknet detector map data/cholo/14dove/eighth_train/cholo.data data/cholo/14dove/eighth_train/yolov3-gaussian-cholo.cfg data/cholo/14dove/eighth_train/yolov3-gaussian-cholo_best.weights -thresh 0.6 -dont_show -save_labels < data/train.txt
+```
+
+-
+
 <table>
    <tr>
       <td>No.</td>
