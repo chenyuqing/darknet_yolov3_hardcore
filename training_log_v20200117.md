@@ -85,12 +85,12 @@ label14 = 0
 ### 验证数据
 - val data: val/dove14_fifth_before_after_img200 + val/dove14_fifth_before_after_img500 + val/label3_4_8_12_13_val_img500
 - 验证数据bbx分布图
-- ![training data distribution](./images/val.png) 
+- ![val data distribution](./images/val.png) 
 
 ### 测试数据
 - test data: test/dove14_fifth_before_after_img300 + test/dove14_fifth_before_after_img400 + test/dove14_fifth_before_after_label3481213_img500
 - 测试数据bbx分布图
-- ![training data distribution](./images/test.png) 
+- ![test data distribution](./images/test.png) 
 
 ## 训练过程
 ### 训练前准备.data, .cfg, .names, .weights
