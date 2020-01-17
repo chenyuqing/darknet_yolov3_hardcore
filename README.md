@@ -10,3 +10,6 @@ A series of hardcore of darknet version of yolov3.
 	- yolov3-spp, [cfg](https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov3-spp.cfg) 
 	- yolov3-darknet53, [cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-voc.cfg) 
 	- yolov3-tiny, [cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3-tiny.cfg) 
+	
+	
++ **Tricks to train Yolo**
