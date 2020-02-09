@@ -6,7 +6,7 @@ FLAGS = tf.app.flags.FLAGS
 tf.app.flags.DEFINE_integer(
     'cam_id', 0, 'camera id')
 tf.app.flags.DEFINE_string(
-    'class_names', 'dove_14_tenth_voc/yolov3.names', 'File with class names')
+    'class_names', 'yolov3.names', 'File with class names')
 tf.app.flags.DEFINE_string(
     'data_format', 'NCHW', 'Data format: NCHW (gpu only) / NHWC')
 tf.app.flags.DEFINE_string(
